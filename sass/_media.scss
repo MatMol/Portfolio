@@ -1,0 +1,61 @@
+
+@media (max-width: 500px){
+  .menu ul{
+    display: none;
+  }
+
+  .menu button{
+    display: inline-block
+  }
+}
+
+@media (max-width: 560px){
+  header img{
+    height: 100px;
+    width: 100px;
+  }
+
+  header h1{
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+  }
+
+  header h3{
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .galeria article{
+    margin-left: 80px;
+  }
+}
+
+@media (max-width: 400px){
+    .about p{
+      font-size: 15px;
+    }
+}
+
+@media (max-width: 375px){
+
+  .galeria article{
+    position: relative;
+    right: 20px;
+  }
+
+}
+
+@media (max-width: 335px){
+
+  .galeria article{
+    position: relative;
+    right: 70px;
+  }
+
+  .skills h2{
+  	padding: 20px;
+  }
+
+}

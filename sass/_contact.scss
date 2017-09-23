@@ -1,0 +1,59 @@
+.contact{
+  	padding: 60px 0;
+	text-align: center;
+	display: flex;
+  	background-image: url("http://www.freebiesgallery.com/wp-content/uploads/2014/02/dotted-world-map-vector-1.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: #333333;
+
+  	.section-title{
+		font-family: $font-principal;
+		font-size: 50px;
+  		color: white;
+	}
+	
+	form{
+		display: flex;
+		flex-direction: column;
+		margin: 5px 0;  
+
+		input{
+			height: 30px;
+			width: 300px;
+			margin: 5px;
+		}
+
+		textarea{
+			height: 80px;
+			width: 300px;
+			margin: 5px;
+		}
+	}
+
+	button{
+		max-width: 50px;
+		-webkit-border-radius: 28;
+		-moz-border-radius: 28;
+		font-family: $font-principal;
+		color: black;
+		font-size: 15px;
+		background: $color-principal;
+		padding: 5px;
+		text-decoration: none;
+		border: 1px solid $color-principal;
+		margin: 5px;
+
+		&:hover{
+			background: $color-hover;
+			border: 1px solid $color-hover;
+			background-image: -webkit-linear-gradient(top, $color-hover, $color-hover);
+			background-image: -moz-linear-gradient(top, $color-hover, $color-hover);
+			background-image: -ms-linear-gradient(top, $color-hover, $color-hover);
+			background-image: -o-linear-gradient(top, $color-hover, $color-hover);
+			background-image: linear-gradient(to bottom, $color-hover, $color-hover);
+			text-decoration: none;
+		}
+	}
+
+}

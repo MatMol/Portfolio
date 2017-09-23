@@ -1,0 +1,47 @@
+.menu .contenedor{
+	display: flex;
+	justify-content: space-between;
+}
+
+.menu{
+	background: $color-fondo;
+	padding: 30px;
+	color: white;
+	font-family: $font-principal;
+	text-transform: uppercase;
+
+	h2{
+		font-family: $font-principal;
+		font-size: 18px;
+		color: $color-principal;
+	}
+
+    ul{
+		display: flex;
+		flex-direction: row;
+		list-style-type: none;
+
+		&:hover{
+			color: $color-hover;
+		}
+    }
+
+    li a{
+		margin: 0 10px;
+		color: white;
+		text-decoration: none;
+		font-size: 15px;
+
+		&:hover{
+			color: $color-hover;
+		}
+    }
+
+    button{
+	  	display: none;
+		background: $color-principal;
+		padding: 5px;
+		border: $color-principal;
+    }
+
+}

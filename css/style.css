@@ -1,0 +1,394 @@
+.menu .contenedor {
+  display: flex;
+  justify-content: space-between; }
+
+.menu {
+  background: #212529;
+  padding: 30px;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase; }
+  .menu h2 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    color: #FED136; }
+  .menu ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none; }
+    .menu ul:hover {
+      color: #FECA1A; }
+  .menu li a {
+    margin: 0 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 15px; }
+    .menu li a:hover {
+      color: #FECA1A; }
+  .menu button {
+    display: none;
+    background: #FED136;
+    padding: 5px;
+    border: #FED136; }
+
+header {
+  padding: 125px;
+  text-align: center;
+  color: #FED136;
+  background-image: url("https://www.etondigital.com/wp-content/uploads/2015/09/YouTube-channels-to-learn-programming.jpg"); }
+  header h1 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 50px;
+    text-transform: uppercase;
+    padding: 10px; }
+  header h3 {
+    font-family: "Hind", sans-serif;
+    font-size: 23px;
+    text-transform: capitalize; }
+
+.about {
+  background: #212529;
+  padding: 60px 0;
+  text-align: center;
+  color: white; }
+  .about img {
+    border-radius: 50%;
+    border: 3px solid #FED136; }
+  .about article {
+    display: flex;
+    .
+		flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center; }
+  .about p {
+    max-width: 400px;
+    padding: 15px;
+    font-family: "Hind", sans-serif;
+    font-size: 18px;
+    text-align: left; }
+  .about button {
+    margin-top: 30px;
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: "Montserrat", sans-serif;
+    color: white;
+    background: #FED136;
+    padding: 10px;
+    color: black;
+    text-decoration: none;
+    border: 1px solid #FED136; }
+    .about button:hover {
+      background: #FECA1A;
+      border: 1px solid #FECA1A;
+      background-image: -webkit-linear-gradient(top, #FECA1A, #FECA1A);
+      background-image: -moz-linear-gradient(top, #FECA1A, #FECA1A);
+      background-image: -ms-linear-gradient(top, #FECA1A, #FECA1A);
+      background-image: -o-linear-gradient(top, #FECA1A, #FECA1A);
+      background-image: linear-gradient(to bottom, #FECA1A, #FECA1A);
+      text-decoration: none; }
+
+.skills {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  color: #212529;
+  font-size: 50px;
+  flex-wrap: wrap; }
+  .skills h2 {
+    padding: 10px; }
+  .skills .circulo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center; }
+
+.rect-auto, .c100.p51 .slice, .c100.p52 .slice, .c100.p53 .slice, .c100.p54 .slice, .c100.p55 .slice, .c100.p56 .slice, .c100.p57 .slice, .c100.p58 .slice, .c100.p59 .slice, .c100.p60 .slice, .c100.p61 .slice, .c100.p62 .slice, .c100.p63 .slice, .c100.p64 .slice, .c100.p65 .slice, .c100.p66 .slice, .c100.p67 .slice, .c100.p68 .slice, .c100.p69 .slice, .c100.p70 .slice, .c100.p71 .slice, .c100.p72 .slice, .c100.p73 .slice, .c100.p74 .slice, .c100.p75 .slice, .c100.p76 .slice, .c100.p77 .slice, .c100.p78 .slice, .c100.p79 .slice, .c100.p80 .slice, .c100.p81 .slice, .c100.p82 .slice, .c100.p83 .slice, .c100.p84 .slice, .c100.p85 .slice, .c100.p86 .slice, .c100.p87 .slice, .c100.p88 .slice, .c100.p89 .slice, .c100.p90 .slice, .c100.p91 .slice, .c100.p92 .slice, .c100.p93 .slice, .c100.p94 .slice, .c100.p95 .slice, .c100.p96 .slice, .c100.p97 .slice, .c100.p98 .slice, .c100.p99 .slice, .c100.p100 .slice {
+  clip: rect(auto, auto, auto, auto); }
+
+.pie, .c100 .bar, .c100.p51 .fill, .c100.p52 .fill, .c100.p53 .fill, .c100.p54 .fill, .c100.p55 .fill, .c100.p56 .fill, .c100.p57 .fill, .c100.p58 .fill, .c100.p59 .fill, .c100.p60 .fill, .c100.p61 .fill, .c100.p62 .fill, .c100.p63 .fill, .c100.p64 .fill, .c100.p65 .fill, .c100.p66 .fill, .c100.p67 .fill, .c100.p68 .fill, .c100.p69 .fill, .c100.p70 .fill, .c100.p71 .fill, .c100.p72 .fill, .c100.p73 .fill, .c100.p74 .fill, .c100.p75 .fill, .c100.p76 .fill, .c100.p77 .fill, .c100.p78 .fill, .c100.p79 .fill, .c100.p80 .fill, .c100.p81 .fill, .c100.p82 .fill, .c100.p83 .fill, .c100.p84 .fill, .c100.p85 .fill, .c100.p86 .fill, .c100.p87 .fill, .c100.p88 .fill, .c100.p89 .fill, .c100.p90 .fill, .c100.p91 .fill, .c100.p92 .fill, .c100.p93 .fill, .c100.p94 .fill, .c100.p95 .fill, .c100.p96 .fill, .c100.p97 .fill, .c100.p98 .fill, .c100.p99 .fill, .c100.p100 .fill {
+  position: absolute;
+  border: 0.08em solid #FED136;
+  width: 0.84em;
+  height: 0.84em;
+  clip: rect(0em, 0.5em, 1em, 0em);
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg); }
+
+.pie-fill, .c100.p51 .bar:after, .c100.p51 .fill, .c100.p52 .bar:after, .c100.p52 .fill, .c100.p53 .bar:after, .c100.p53 .fill, .c100.p54 .bar:after, .c100.p54 .fill, .c100.p55 .bar:after, .c100.p55 .fill, .c100.p56 .bar:after, .c100.p56 .fill, .c100.p57 .bar:after, .c100.p57 .fill, .c100.p58 .bar:after, .c100.p58 .fill, .c100.p59 .bar:after, .c100.p59 .fill, .c100.p60 .bar:after, .c100.p60 .fill, .c100.p61 .bar:after, .c100.p61 .fill, .c100.p62 .bar:after, .c100.p62 .fill, .c100.p63 .bar:after, .c100.p63 .fill, .c100.p64 .bar:after, .c100.p64 .fill, .c100.p65 .bar:after, .c100.p65 .fill, .c100.p66 .bar:after, .c100.p66 .fill, .c100.p67 .bar:after, .c100.p67 .fill, .c100.p68 .bar:after, .c100.p68 .fill, .c100.p69 .bar:after, .c100.p69 .fill, .c100.p70 .bar:after, .c100.p70 .fill, .c100.p71 .bar:after, .c100.p71 .fill, .c100.p72 .bar:after, .c100.p72 .fill, .c100.p73 .bar:after, .c100.p73 .fill, .c100.p74 .bar:after, .c100.p74 .fill, .c100.p75 .bar:after, .c100.p75 .fill, .c100.p76 .bar:after, .c100.p76 .fill, .c100.p77 .bar:after, .c100.p77 .fill, .c100.p78 .bar:after, .c100.p78 .fill, .c100.p79 .bar:after, .c100.p79 .fill, .c100.p80 .bar:after, .c100.p80 .fill, .c100.p81 .bar:after, .c100.p81 .fill, .c100.p82 .bar:after, .c100.p82 .fill, .c100.p83 .bar:after, .c100.p83 .fill, .c100.p84 .bar:after, .c100.p84 .fill, .c100.p85 .bar:after, .c100.p85 .fill, .c100.p86 .bar:after, .c100.p86 .fill, .c100.p87 .bar:after, .c100.p87 .fill, .c100.p88 .bar:after, .c100.p88 .fill, .c100.p89 .bar:after, .c100.p89 .fill, .c100.p90 .bar:after, .c100.p90 .fill, .c100.p91 .bar:after, .c100.p91 .fill, .c100.p92 .bar:after, .c100.p92 .fill, .c100.p93 .bar:after, .c100.p93 .fill, .c100.p94 .bar:after, .c100.p94 .fill, .c100.p95 .bar:after, .c100.p95 .fill, .c100.p96 .bar:after, .c100.p96 .fill, .c100.p97 .bar:after, .c100.p97 .fill, .c100.p98 .bar:after, .c100.p98 .fill, .c100.p99 .bar:after, .c100.p99 .fill, .c100.p100 .bar:after, .c100.p100 .fill {
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  transform: rotate(180deg); }
+
+.c100 {
+  position: relative;
+  font-family: "Montserrat", sans-serif;
+  width: 1em;
+  height: 1em;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+  margin: 0 0.1em 0.1em 0;
+  background-color: #212529; }
+
+.c100 *, .c100 *:before, .c100 *:after {
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box; }
+
+.c100.center {
+  float: none;
+  margin: 0 auto; }
+
+.c100.small {
+  font-size: 150px; }
+
+.c100 > span {
+  position: absolute;
+  width: 100%;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 5em;
+  line-height: 5em;
+  font-size: 0.2em;
+  color: #212529;
+  display: block;
+  text-align: center;
+  white-space: nowrap;
+  -webkit-transition-property: all;
+  -moz-transition-property: all;
+  -o-transition-property: all;
+  transition-property: all;
+  -webkit-transition-duration: 0.2s;
+  -moz-transition-duration: 0.2s;
+  -o-transition-duration: 0.2s;
+  transition-duration: 0.2s;
+  -webkit-transition-timing-function: ease-out;
+  -moz-transition-timing-function: ease-out;
+  -o-transition-timing-function: ease-out;
+  transition-timing-function: ease-out; }
+
+.c100:after {
+  position: absolute;
+  top: 0.08em;
+  left: 0.08em;
+  display: block;
+  content: " ";
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+  background-color: whitesmoke;
+  width: 0.84em;
+  height: 0.84em; }
+
+.c100 .slice {
+  position: absolute;
+  width: 1em;
+  height: 1em;
+  clip: rect(0em, 1em, 1em, 0.5em); }
+
+.c100.p80 .bar {
+  -webkit-transform: rotate(288deg);
+  -moz-transform: rotate(288deg);
+  -ms-transform: rotate(288deg);
+  -o-transform: rotate(288deg);
+  transform: rotate(288deg); }
+
+.c100.p75 .bar {
+  -webkit-transform: rotate(270deg);
+  -moz-transform: rotate(270deg);
+  -ms-transform: rotate(270deg);
+  -o-transform: rotate(270deg);
+  transform: rotate(270deg); }
+
+.c100.p60 .bar {
+  -webkit-transform: rotate(216deg);
+  -moz-transform: rotate(216deg);
+  -ms-transform: rotate(216deg);
+  -o-transform: rotate(216deg);
+  transform: rotate(216deg); }
+
+.c100:hover {
+  cursor: default; }
+
+.c100:hover > span {
+  width: 3.33em;
+  line-height: 3.33em;
+  font-size: 0.3em;
+  color: #212529; }
+
+.c100:hover:after {
+  top: 0.04em;
+  left: 0.04em;
+  width: 0.92em;
+  height: 0.92em; }
+
+.portfolio {
+  padding: 60px 0;
+  background: #212529;
+  color: white;
+  flex-wrap: wrap; }
+  .portfolio h2 {
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 50px;
+    padding: 15px; }
+
+.galeria {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between; }
+  .galeria img {
+    margin: 20px; }
+  .galeria .art1 {
+    position: relative; }
+    .galeria .art1 .overlay {
+      position: absolute;
+      top: 20px;
+      bottom: 0;
+      left: 20px;
+      right: 0;
+      height: 180px;
+      width: 250px;
+      opacity: 0;
+      transition: .5s ease;
+      background-color: #FED136;
+      text-align: center; }
+      .galeria .art1 .overlay .text {
+        color: white;
+        font-size: 20px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%); }
+    .galeria .art1:hover .overlay {
+      opacity: 1; }
+
+.contact {
+  padding: 60px 0;
+  text-align: center;
+  display: flex;
+  background-image: url("http://www.freebiesgallery.com/wp-content/uploads/2014/02/dotted-world-map-vector-1.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #333333}
+  .contact .section-title {
+    font-family: "Montserrat", sans-serif;
+    font-size: 50px;
+    color: white; }
+  .contact form {
+    display: flex;
+    flex-direction: column;
+    margin: 5px 0; }
+    .contact form input {
+      height: 30px;
+      width: 300px;
+      margin: 5px; }
+    .contact form textarea {
+      height: 80px;
+      width: 300px;
+      margin: 5px; }
+  .contact button {
+    max-width: 50px;
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    font-family: "Montserrat", sans-serif;
+    color: black;
+    font-size: 15px;
+    background: #FED136;
+    padding: 5px;
+    text-decoration: none;
+    border: 1px solid #FED136;
+    margin: 5px; }
+    .contact button:hover {
+      background: #FECA1A;
+      border: 1px solid #FECA1A;
+      background-image: -webkit-linear-gradient(top, #FECA1A, #FECA1A);
+      background-image: -moz-linear-gradient(top, #FECA1A, #FECA1A);
+      background-image: -ms-linear-gradient(top, #FECA1A, #FECA1A);
+      background-image: -o-linear-gradient(top, #FECA1A, #FECA1A);
+      background-image: linear-gradient(to bottom, #FECA1A, #FECA1A);
+      text-decoration: none; }
+
+footer {
+  padding: 10px;
+  background-color: white; }
+  footer .social {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: center; }
+    footer .social a {
+      font-size: 25px;
+      color: white;
+      text-decoration: none; }
+    footer .social span {
+      height: 40px;
+      width: 40px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 0 5px;
+      border-radius: 50%;
+      background: #212529; }
+      footer .social span:hover {
+        background-color: #FED136; }
+
+@media (max-width: 500px) {
+  .menu ul {
+    display: none; }
+
+  .menu button {
+    display: inline-block; } }
+@media (max-width: 560px) {
+  header img {
+    height: 100px;
+    width: 100px; }
+
+  header h1 {
+    font-size: 35px;
+    display: flex;
+    justify-content: center; }
+
+  header h3 {
+    font-size: 14px;
+    display: flex;
+    justify-content: center; }
+
+  .galeria article {
+    margin-left: 80px; } }
+@media (max-width: 400px) {
+  .about p {
+    font-size: 15px; } }
+@media (max-width: 375px) {
+  .galeria article {
+    position: relative;
+    right: 20px; } }
+@media (max-width: 335px) {
+  .galeria article {
+    position: relative;
+    right: 70px; }
+
+  .skills h2 {
+    padding: 20px; } }
+.contenedor {
+  max-width: 900px;
+  margin: auto; }
+
+/*# sourceMappingURL=style.css.map */

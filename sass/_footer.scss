@@ -1,0 +1,32 @@
+ footer {
+    padding: 10px; 
+    background-color: white;
+
+    .social{
+	  display: flex;
+	  flex-direction: row;
+	  list-style-type: none;
+	  justify-content: center;
+
+	  a{
+		font-size: 25px;
+		color: white;
+		text-decoration: none;
+	  }
+
+	  span{
+		height: 40px;
+		width: 40px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin: 0 5px;
+		border-radius: 50%;
+		background: $color-fondo;
+
+		&:hover{
+			background-color: $color-principal;
+		}
+	  }
+	}
+}
